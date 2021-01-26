@@ -7,13 +7,74 @@
     <link rel="stylesheet" href="./style.scss">
 </head>
 <body>
-    <nav>
-        <h1>Pierre-Louis Bertrand</h1>
-        <p>Études</p>
-        <p>Réalisations</p>
-        <p>Loisirs</p>
-        <button>Me contacter</button>
-    </nav>
+    <header>
+        <nav>
+            <h1>Pierre-Louis Bertrand</h1>
+            <div class="buttons">
+                <a href="#experiences">Expériences</a>
+                <a href="#etudes">Études</a>
+                <a href="#loisirs">Loisirs</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img src="photo.png" alt="Photo">
+        <h2>Étudiant en développement informatique</h2>
+        <p>Récemment diplôme de Licence Informatique, je continue
+            mes études en Master IMIS à l'Université d'Orléans</p>
+    </main>
+
+    <section id="experiences">
+        <h3>Expériences</h3>
+        <ul>
+            <li>
+                <h4>Stage en développement Web</h4>
+                <p>Atos</p>
+                <p>juin 2020 - août 2020</p>
+                <p>Olivet, Centre-Val de Loire, France</p>
+                <p>Réalisation d'une application Web interne</p>
+                <p>Angular</p>
+                <p>Spring Boot</p>
+            </li>
+            <li>
+                <h4>Stage en développement Web</h4>
+                <p>DSA Technologies</p>
+                <p>avril 2019 - juin 2019</p>
+                <p>Semoy, Centre-Val de Loire, France</p>
+                <p>Changement du système de versionnage pour le pôle électronique</p>
+                <p>Git</p>
+                <p>Développement d'un logiciel pour accelérer le test des capteurs de l'entreprise</p>
+                <p>C# / UWP</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="etudes">
+        <h3>Études</h3>
+        <ul>
+            <li>
+                <h4>Master IMIS</h4>
+                <p>Septembre 2020 - Actuellement</p>
+                <p>Université d'Orléans</p>
+            </li>
+            <li>
+                <h4>Licence 3 ingénierie informatique</h4>
+                <p>Septembre 2019 - Juin 2020</p>
+                <p>Université d'Orléans</p>
+            </li>
+            <li>
+                <h4>DUT Informatique</h4>
+                <p>Septembre 2017 - Juin 2019</p>
+                <p>IUT d'Orléans</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="loisirs">
+        <h3>Loisirs</h3>
+    </section>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="index.js"></script>
