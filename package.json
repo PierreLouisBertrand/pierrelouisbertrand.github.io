@@ -1,0 +1,24 @@
+{
+  "name": "pierrelouisbertrand.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreLouisBertrand/pierrelouisbertrand.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreLouisBertrand/pierrelouisbertrand.github.io/issues"
+  },
+  "homepage": "https://github.com/PierreLouisBertrand/pierrelouisbertrand.github.io#readme"
+}
